@@ -1,0 +1,34 @@
+# Local settings
+.env
+.env.*
+!.env.example
+
+# Files created while the app is running
+Desktop_App/last_scan.txt
+*.log
+
+# Python
+.venv/
+Desktop_App/.venv/
+__pycache__/
+*.py[cod]
+
+# Zip and backup files
+*.zip
+*backup*
+
+# Editor files
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+
+# Arduino build and IntelliSense output
+.build/
+Arduino/**/build/
+
+# Windows and macOS files
+Thumbs.db
+Desktop.ini
+.DS_Store

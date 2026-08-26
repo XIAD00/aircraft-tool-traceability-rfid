@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Arduino: Configure ESP32 IntelliSense",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/Arduino/configure-intellisense.ps1"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Arduino: Verify ESP32 sketch",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/Arduino/configure-intellisense.ps1",
+        "-Compile"
+      ],
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+* text=auto
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
+requirements.txt text eol=lf
+*.py text eol=lf
+*.php text eol=lf
+*.ino text eol=lf
+*.h text eol=lf
+*.sql text eol=lf
+*.md text eol=lf
+
+*.png binary
+*.PNG binary
